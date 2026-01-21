@@ -21,7 +21,7 @@ header {
     float: left;
     color:skyblue;
     padding-left: 80px;
-    font-size: 40px;
+    font-size: 175%;
 }
 
 .navBar {
@@ -53,7 +53,7 @@ header {
     color: skyblue;
     font-size: 50px;
     text-align: left;
-    padding-top: 30px;
+    padding-top: 2.75%;
 }
 
 .bodytext {
