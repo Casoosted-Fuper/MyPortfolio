@@ -74,16 +74,24 @@ header {
     text-align: left;
 }
 
-
-.extraIcon {
-    padding-left: 30px;
-}
-
 .extratitle {
     color: skyblue;
     font-size: 30px;
     text-align: left;
     padding-top: 15px;
+}
+
+.extraIcon {
+    padding-left: 30px;
+}
+
+.extraIconImage {
+    transition: transform 0.3s ease-in-out;
+    width: 80px;
+}
+
+.extraIconImage:hover {
+    transform: scale(1.2);
 }
 
 .projectButton {
