@@ -10,7 +10,6 @@ import Layout from '../layouts/Layout.astro';
 			<nav class="navBar">
 				<a href="/">Home</a>
 				<a href="/projects/" class="active">My Projects</a>
-				<!-- <a href="/skills/">Skills</a> -->
 				<a href="https://github.com/Casoosted-Fuper/Resume/blob/main/Resume%201-13-2026.pdf" class="button">Resume</a>
 			</nav>
 		</div>
@@ -18,4 +17,43 @@ import Layout from '../layouts/Layout.astro';
 	<div class="container">
 		<h1 class="projectTitle">Projects</h1>
 	</div>
+	<div class="container">
+		<p class="projecttext">Click on a game's icon to go to it's itch page.</p>
+	</div>
+	<table class="center">
+		<tr>
+			<td>
+				<div>
+					<a href="https://feryvalowen-studios.itch.io/aes-race">
+					<img src="/images/AesRaceThumbnail.png" alt="Aes Race thumbnail" class="projectButton">
+					</a>
+					<p class="buttonLabel">Aes Race</p>
+				</div>
+			</td>
+			<td>
+				<div>
+					<a href="https://kcisneat.itch.io/belemondocrime">
+					<img src="/images/BLDCPortfolioImage.png" alt="Be Lemon Do Crime thumbnail" class="projectButton">
+					</a>
+					<p class="buttonLabel">Be Lemon, Do Crime</p>
+				</div>
+			</td>
+			<td>
+				<div>
+					<a href="https://jack-decker.itch.io/starjump">
+					<img src="/images/starjump gameplay.png" alt="Starjump thumbnail" class="projectButton">
+					</a>
+					<p class="buttonLabel">Starjump</p>
+				</div>
+			</td>
+			<td>
+				<div>
+					<a href="https://blynkku.itch.io/to-fetch-a-pal">
+					<img src="/images/TFAPPortfolioImage.png" alt="To Fetch A Pal thumbnail" class="projectButton">
+					</a>
+					<p class="buttonLabel">To Fetch A Pal</p>
+				</div>
+			</tr>
+		</tr>
+	</table>
 </Layout>
